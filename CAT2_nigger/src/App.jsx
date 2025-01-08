@@ -1,6 +1,7 @@
 // Import necessary modules
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import useScreenSize from './useScreenSize';
 import './App.css'; // Assume you have a CSS file for styling
 
 // Header Component
@@ -89,7 +90,9 @@ const Footer = () => (
 );
 
 // Main App Component
-const App = () => (
+const App = () => {
+    const { width } = useScreenSize();
+    return(
   <div className="app">
     <Header />
     <HeroSection />
@@ -98,7 +101,8 @@ const App = () => (
     <Contact />
     <Footer />
   </div>
-);
+    );
+};
 
 // Render the App Component
 const root = ReactDOM.createRoot(document.getElementById('root'));

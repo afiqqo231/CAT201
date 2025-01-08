@@ -7,6 +7,12 @@ body {
   background-color: #f9f9f9;
 }
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
 h1, h2, h3 {
   color: #0056b3;
 }
@@ -22,7 +28,7 @@ a:hover {
 
 /* Header Styles */
 .header {
-  background-color: hsl(279, 100%, 58%);
+  background-color: #0056b3;
   color: #fff;
   padding: 1rem 2rem;
   display: flex;
@@ -165,4 +171,8 @@ a:hover {
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
+}
+
+.app {
+  width: max-content;
 }
