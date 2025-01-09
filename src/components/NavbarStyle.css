@@ -7,5 +7,137 @@
     width: 95%;
     height: 80px;
     border-radius: 13px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 999;
     
+}
+
+.navbar-logo{
+    color: #222;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.nav-menu{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: #222;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 0.7rem 1rem;
+    white-space: nowrap;
+}
+
+.nav-links i{
+    padding-right: 10px;
+
+}
+
+.nav-links:hover{
+    background-color: rgb(188, 72, 241);
+    color: #fff;
+    border-radius: 4px;
+    transition: all 0.2s ease-in-out;
+}
+
+.nav-links-mobile{
+    display: none;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover{
+    background-color: rgb(188, 72, 241);
+    color: #fff;
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 850px){
+    .NavbarItems{
+        z-index: 99;
+    }
+
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background: #fff;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        left: 0;
+        top: -100%;
+        opacity: 0;
+        align-items: stretch;
+        padding: 80px 0 30px 0;
+        margin: 0;
+    }
+
+    .nav-menu.active{
+        top: 0;
+        opacity: 1;
+        z-index: -1;
+    }
+
+    .nav-links{
+        display: block;
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 2rem 0;
+    }
+
+    button:hover{
+        background-color: rgb(188, 72, 241);
+        transition: none;
+    }
+
+    button{
+        display: none;
+    }
+
+    .nav-links-mobile{
+        display: block;
+        text-align: center;
+        padding: 1.5rem;
+        margin: auto;
+        width: 80%;
+        background: rgb(82, 5, 78);
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        z-index: 9999;
+    }
+
+    .menu-icon i{
+        font-size: 1.7rem;
+    }
 }
