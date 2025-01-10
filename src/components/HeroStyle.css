@@ -11,7 +11,7 @@
 }
 
 .hero-mid h1{
-    padding-top: 4rem;
+    padding-top: 4rem !important;
 }
 
 img{
@@ -31,14 +31,15 @@ img{
 .hero-text h1{
     font-size: 3rem;
     font-weight: 800;
+    padding-top: 300px !important;
     background: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .hero-text p{
-    font-size: 1.5rem;
-    color: #fff;
+    font-size: 1rem;
+    color: #1c18ea;
     padding: 0.5rem 0 2rem 0;
 }
 
