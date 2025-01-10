@@ -1,10 +1,12 @@
 import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import AboutImg from "../assets/1.jpg";
 
 function Entertainment (){
     return (
         <>
         <Navbar/>
-        <h1>This is entertainment</h1>
+        <Hero cName="hero-mid" heroImg={AboutImg} title="Entertainment" desc="intro" button="hide"/>
         </>
     )
 }

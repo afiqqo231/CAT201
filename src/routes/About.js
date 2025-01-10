@@ -6,12 +6,7 @@ function About (){
     return (
         <>
         <Navbar/>
-        <Hero
-            cName="hero-mid"
-            heroImg={AboutImg}
-            title="About Penang"
-            desc="intro"
-            />
+        <Hero cName="hero-mid" heroImg={AboutImg} title="About Penang" desc="intro"/>
         </>
     )
 }

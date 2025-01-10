@@ -17,13 +17,7 @@ export const MenuItems = [
         url : "/gallery",
         cName : "nav-links",
         icon : "fa-solid fa-image"
-    },
-    {
-        title : "Entertainment",
-        url : "/entertainment",
-        cName : "nav-links",
-        icon : "fa-solid fa-gamepad"
-    },    
+    },  
     {
         title : "Contact",
         url : "/contact",
