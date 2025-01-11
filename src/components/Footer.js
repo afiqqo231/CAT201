@@ -8,10 +8,10 @@ function Footer(){
                 <a href="https://mypenang.gov.my/">
                     <p>MyPenang</p>
                 </a>
-                <a href="https://www.tripadvisor.com.my/Tourism-g660694-Penang_Island_Penang-Vacations.html">
+                <a href="https://wikitravel.org/en/Penang">
                     <p>WikiTravel</p>
                 </a>
-                <a href="https://mypenang.gov.my/">
+                <a href="https://www.tripadvisor.com.my/Tourism-g660694-Penang_Island_Penang-Vacations.html">
                     <p>TripAdvisor</p>
                 </a>
             </div>
