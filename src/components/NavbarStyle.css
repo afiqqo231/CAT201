@@ -1,5 +1,5 @@
 .NavbarItems{
-    background-color: #fff;
+    background-color: #fefefe;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,7 +17,7 @@
 }
 
 .navbar-logo{
-    color: #222;
+    color: #001357;
     font-size: 2rem;
     font-weight: 700;
     cursor: pointer;
@@ -89,7 +89,7 @@ button:hover{
         width: 100%;
         height: auto;
         position: absolute;
-        top: -600%;
+        top: -800%;
         left: 0%;
         opacity: 0;
         align-items: stretch;
