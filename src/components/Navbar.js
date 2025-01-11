@@ -26,7 +26,6 @@ class Navbar extends Component {
               </li>
             )
           })}
-          <button>Contact Us</button>
         </ul>
       </nav>
     );
