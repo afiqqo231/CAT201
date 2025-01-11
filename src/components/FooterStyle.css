@@ -1,20 +1,30 @@
 .footer{
-    text-align: left;
+    text-align: center;
     background-color: rgb(20, 1, 68);
-    color: #fff;
+    color: #ded6b3;
+    padding-bottom: 20px;
 }
 
 .footer h1{
-    margin: 0 20px;
+    padding-top: 15px;
+    margin: 0 0 0 1.5rem;
     font-size: 2rem;
+    font-weight: 600;
 }
 
-.footer p{
-    margin: 0 30px;
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-content p{
+    margin: 0 1.5rem;
     font-size: 1rem;
-    color: rgb(255, 255, 255);
+    font-weight: 300;
+    color: #ded6b3;
 }
 
-.footer a{
+.footer-content a{
     text-decoration: none;
 }
