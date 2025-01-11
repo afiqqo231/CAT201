@@ -3,6 +3,7 @@ import { Route, Routes, HashRouter  } from "react-router-dom"
 import Home from "./routes/Home.js";
 import Food from "./routes/Food.js";
 import Places from "./routes/Places.js";
+import Footer from "./components/Footer.js"
 
 export default function App() {
   return (
@@ -12,7 +13,7 @@ export default function App() {
         <Route path="/places" element = {<Places/>}/>
         <Route path="/food" element = {<Food/>}/>
       </Routes>
-
+      <Footer/>
     </div>
   );
 }

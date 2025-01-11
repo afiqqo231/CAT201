@@ -1,0 +1,16 @@
+.video-responsive iframe {
+    margin-top: 30px;
+    padding: 0 100px;
+    width: 80%;
+    height:600px;
+    transition: 0.1s ease-in-out;
+}
+
+@media screen and (max-width: 850px){
+    .video-responsive iframe {
+        padding: 0 100px;
+        width: 100%;
+        height: 300px;
+        transition: 0.1s ease-in-out;
+    }
+}
