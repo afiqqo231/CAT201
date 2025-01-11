@@ -1,22 +1,22 @@
 export const MenuItems = [
     {
         title : "Home",
-        url : "/",
+        url : "/CAT201",
         cName : "nav-links",
         icon : "fa-solid fa-house-chimney"
     },
 
     {
         title : "Places",
-        url : "/places",
+        url : "/CAT201/places",
         cName : "nav-links",
-        icon : "fa-solid fa-image"
+        icon : "fa-solid fa-location-dot"
     },
 
     {
         title : "Food",
-        url : "/food",
+        url : "/CAT201/food",
         cName : "nav-links",
-        icon : "fa-solid fa-info"
+        icon : "fa-solid fa-bowl-food"
     },
 ]
